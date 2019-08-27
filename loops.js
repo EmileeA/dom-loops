@@ -7,7 +7,7 @@ const printToDom = (toPrint, divId) => {
     document.getElementById(divId).innerHTML += toPrint
 }
 
-const printRaindow = (colorArr) => {
+const printRainbow = (colorArr) => {
     for (let i = 0; i < colorArr.length; i++) {
         const color = colorArr[i]
         printToDom(color, 'rainbow')
@@ -17,7 +17,7 @@ const printRaindow = (colorArr) => {
 printRainbow(colors)
 printRainbow(ew)
 
-const instructors = [
+const instructions = [
     {first: "Zoee", last: "Amese"},
     {first: "Callan", last: "Morrison"},
     {first: "Greg", last: "Korte"},
